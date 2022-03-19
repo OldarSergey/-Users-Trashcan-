@@ -1,0 +1,47 @@
+//Program
+using UserDateTime;
+Console.Write("Ваше имя: ");
+
+Person person = new Person();
+{
+    person.Name = Console.ReadLine();
+    person.birthDate = new DateTime(2222, 08, 11);
+    if (person.birthDate.Year > DateTime.Now.Year)
+    {
+        Console.WriteLine($"Неправильно ввели данные");
+    }
+    else
+    {
+        Console.WriteLine();
+        Console.WriteLine($" Здравствуйте, {person.Name}, Вам {person.Age} лет!!!!");
+    }
+}
+// Class
+using System;
+
+namespace UserDateTime
+{
+    public class Person
+    {
+        public int age { get; set; }
+        public DateTime birthDate { get; set; }
+        public string Name { get; set; }
+
+        public int Age
+        {
+            get
+            {
+                if (DateTime.Now.Month < birthDate.Month
+                || (DateTime.Now.Month == birthDate.Month && DateTime.Now.Day < birthDate.Day))
+                {
+                    age = DateTime.Now.Year - birthDate.Year;
+                    age--;
+                    
+
+                }
+                return age;
+
+            }
+        }
+    }
+}
