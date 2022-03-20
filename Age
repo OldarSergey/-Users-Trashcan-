@@ -1,20 +1,24 @@
 //Program
+using System.Globalization;
 using UserDateTime;
-Console.Write("Ваше имя: ");
+Console.Write("Ваше имя : ");
 
 Person person = new Person();
 {
-    person.Name = Console.ReadLine();
-    person.birthDate = new DateTime(2222, 08, 11);
-    if (person.birthDate.Year > DateTime.Now.Year)
-    {
-        Console.WriteLine($"Неправильно ввели данные");
-    }
-    else
-    {
-        Console.WriteLine();
-        Console.WriteLine($" Здравствуйте, {person.Name}, Вам {person.Age} лет!!!!");
-    }
+person.Name = Console.ReadLine();
+Console.Write("Введите ваш день рождения в формате дд.мм.гггг: ");
+
+person.birthDate = DateTime.ParseExact(Console.ReadLine(), "dd.MM.yyyy", CultureInfo.InvariantCulture);
+
+if (person.birthDate.Year > DateTime.Now.Year)
+{
+Console.WriteLine($"{person.Name}, Вы неправильно ввели данные");
+}
+else
+{
+Console.WriteLine();
+Console.WriteLine($" Здравствуйте, {person.Name}, Вам {person.Age} лет!!!!");
+}
 }
 // Class
 using System;
