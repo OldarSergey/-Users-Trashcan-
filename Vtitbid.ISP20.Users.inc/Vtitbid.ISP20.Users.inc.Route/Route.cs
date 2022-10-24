@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Vtitbid.ISP20.Users.inc.Route
+﻿namespace Vtitbid.ISP20.Users.inc.Route
 {
     public class Route
     {
@@ -27,18 +21,19 @@ namespace Vtitbid.ISP20.Users.inc.Route
             Console.Write("Введите конец маршрута: ");
             var nameEndOfRoute = ChekName(Console.ReadLine(), nameof(NameEndOfRoute));
             Console.Write("Введите номер маршрута: ");
-            if (int.TryParse(Console.ReadLine(), out int value))
+            bool CheckOfNumberOfRoute = (int.TryParse(Console.ReadLine(), out int value)) && (string.IsNullOrEmpty(Console.ReadLine()));
+            if (CheckOfNumberOfRoute)
             {
+               
                 int numberOfRoute = value;
                 return new Route(nameStartOfRoute, nameEndOfRoute, numberOfRoute);
+
             }
             else
             {
                 Console.WriteLine("Ошибка ввода данных");
-                return null;
             }
-                
-            
+            return null;
         }
         public static Route[] GetRouteArray(int count)
         {
@@ -58,44 +53,48 @@ namespace Vtitbid.ISP20.Users.inc.Route
             {
                 case nameof(NameStartOfRoute):
                     if (!string.IsNullOrEmpty(input))
-                    { return input; break; }
-                    else { return "Начальная точка маршрута не определена"; break; }
-
+                    { return input; }
+                    else { return "Начальная точка маршрута не определена"; }
+                    break;
                 case nameof(NameEndOfRoute):
                     if (!string.IsNullOrEmpty(input))
-                    { return input; break; }
-                    else { return "Конечная точка маршрут не определена"; break; }
-
+                    { return input; }
+                    else { return "Конечная точка маршрут не определена"; }
+                    break;
 
             }
             return null;
 
         }
-        public static Route SearchRoute(Route[] array)
+        public static Route[] SearchRoute(Route[] routes)
         {
+            
             Console.WriteLine("Введите номер вашего маршрута");
-            if (int.TryParse(Console.ReadLine(), out int numberOfRoute))
+            if (!int.TryParse(Console.ReadLine(), out int numberOfRoute))
+                return routes;
+            for (int i = 0; i < routes.Length; i++)
             {
-                for (int i = 0; i < array.Length; i++)
+                if (numberOfRoute == routes[i].NumberOfRoute)
                 {
-                    if (!(numberOfRoute == array[i].NumberOfRoute))
-                    {
-                        
-                        Console.WriteLine(array[i]);
-                    }
-                    else
-                    {
-                        Console.WriteLine(array[i]);
-                        i++;
-                        
-                    }
+
+                    Console.WriteLine(routes[i]);
+                    
+                }
+                else
+                {
+                    
+
+
                 }
             }
-            return null;
+
+            return routes;
+
         }
+
         public override string ToString()
         {
-           
+
             return $"Начало марщрута: {NameStartOfRoute} \nКонец маршрута: {NameEndOfRoute}\nНомер маршрута: {NumberOfRoute}";
         }
 

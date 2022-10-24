@@ -16,8 +16,9 @@
 
 
                 }
+                array = Route.SearchRoute(array);
                 
-                Console.WriteLine(Route.SearchRoute(array));
+                
             }
             else
             {
