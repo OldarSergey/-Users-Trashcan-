@@ -1,0 +1,15 @@
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\bin\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.exe
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\bin\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.deps.json
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\bin\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.runtimeconfig.json
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\bin\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.dll
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\bin\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.pdb
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.AssemblyInfo.cs
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.dll
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\refint\Vtitbid.ISP20.Users.inc.Bill.dll
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.pdb
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\Vtitbid.ISP20.Users.inc.Bill.genruntimeconfig.cache
+C:\Users\Дмитрий\source\repos\Vtitbid.ISP20.Users.inc.Bill\Vtitbid.ISP20.Users.inc.Bill\obj\Debug\net6.0\ref\Vtitbid.ISP20.Users.inc.Bill.dll
