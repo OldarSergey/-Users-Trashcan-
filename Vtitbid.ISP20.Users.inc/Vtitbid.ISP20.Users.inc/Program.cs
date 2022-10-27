@@ -4,26 +4,11 @@
     {
         public static void Main(string[] args)
         {
-            Console.Write("Введите количество людей:");
-            if (int.TryParse(Console.ReadLine(), out int value))
-            {
-                Zodiac[] array = Zodiac.GetZodiacArray(value);
-                Console.WriteLine();
-                foreach (var zodiac in array)
-                {
-                    Console.WriteLine(zodiac);
-                    Console.WriteLine();
+            var n = int.Parse(Console.ReadLine());
+
+            var zodiacs = Zodiac.GetZodiacArray(n, Console.WriteLine, Console.ReadLine);
 
 
-                }
-            }
-            else
-            {
-                Console.WriteLine("Количесвто людей не опредлено ");
-            }
-
-            
-            
         }
     }
 }

@@ -9,16 +9,10 @@ namespace Vtitbid.ISP20.Users.inc.Zodiac
     public struct DateOfBirth
     {
 
+
         public int Day { get; set; }
         public int Month { get; set; }
-        public int Year { get; set; }
-
-        //public DateOfBirth(int[] dateOfBirth)
-        //{
-        //    Day = dateOfBirth[0];
-        //    Month = dateOfBirth[1];
-        //    Year = dateOfBirth[2];
-        //}
+        public int Year { get; set; }        
 
         public DateOfBirth(int day, int month, int year)
         {
@@ -27,15 +21,15 @@ namespace Vtitbid.ISP20.Users.inc.Zodiac
             Year = year;
         }
 
-        public static DateOfBirth CreateDateOfBirth()
+        public static DateOfBirth CreateDateOfBirth(Action<string> writer, Func<string> reader)
         {
-            Console.WriteLine("Дата рождения:");
+            writer("Дата рождения:");
             Console.Write("Введите день: ");
-            var day = Validate(Console.ReadLine(), nameof(Day));
-            Console.Write("Введите месяц: ");
-            var month = Validate(Console.ReadLine(), nameof(Month));
-            Console.Write("Введите год: ");
-            var year = Validate(Console.ReadLine(), nameof(Year));
+            var day = Validate(reader(), nameof(Day));
+            writer("Введите месяц: ");
+            var month = Validate(reader(), nameof(Month));
+            writer("Введите год: ");
+            var year = Validate(reader(), nameof(Year));
 
             return new DateOfBirth(day, month, year);
         }
@@ -69,16 +63,14 @@ namespace Vtitbid.ISP20.Users.inc.Zodiac
                     break;
             }
 
-
-
             return -1;
         }
 
         public override string ToString()
         {
             var stringDay = Day == -1 ? "День не определен" : Day.ToString(); 
-            var stringMonth =Month== -1 ? "Месяц не определен" : Month.ToString();
-            var stringYear = Year== -1 ? "Год не определен" : Year.ToString();
+            var stringMonth = Month == -1 ? "Месяц не определен" : Month.ToString();
+            var stringYear = Year == -1 ? "Год не определен" : Year.ToString();
 
             return $"Дата рождения:\nДень: {stringDay} Месяц: {stringMonth} Год: {stringYear}";
         }

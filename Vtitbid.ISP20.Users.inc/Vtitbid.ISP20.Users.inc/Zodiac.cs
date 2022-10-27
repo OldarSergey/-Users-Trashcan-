@@ -1,7 +1,7 @@
 ﻿namespace Vtitbid.ISP20.Users.inc.Zodiac
 {
     public class Zodiac
-    {
+    {        
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
@@ -17,33 +17,33 @@
 
             ZodiacSign = SignDate(dateOfBirth);
         }
-        
-        public static Zodiac[] GetZodiacArray(int count)
+
+        public static Zodiac[] GetZodiacArray(int count, Action<string> writer, Func<string> reader)
         {
             Zodiac[] zodiacs = new Zodiac[count];
 
             for (int i = 0; i < zodiacs.Length; i++)
             {
-                zodiacs[i] = CreateZodiac();
+                zodiacs[i] = CreateZodiac(writer, reader);
             }
 
             return zodiacs;
         }
 
-        public static Zodiac CreateZodiac()
+        private static Zodiac CreateZodiac(Action<string> writer, Func<string> reader)
         {
 
-            Console.Write("Введите Ваше имя: ");
-            var firstName = ChekName(Console.ReadLine(),nameof(FirstName));
-            Console.Write("Введите Вашу фамилию: ");
-            var lastName = ChekName(Console.ReadLine(),nameof(LastName));
-            var dateOfBirth = DateOfBirth.CreateDateOfBirth();
+            writer("Введите Ваше имя: ");
+            var firstName = CheckName(reader(), nameof(FirstName));
+            writer("Введите Вашу фамилию: ");
+            var lastName = CheckName(reader(), nameof(LastName));
+            var dateOfBirth = DateOfBirth.CreateDateOfBirth(writer, reader);
             if (dateOfBirth.Day > 28 && dateOfBirth.Month == 2)
             {
-                Console.WriteLine($"В феврале не может быть: {dateOfBirth.Day} дней");
+                writer($"В феврале не может быть: {dateOfBirth.Day} дней");
                 Environment.Exit(0);
             }
-            
+
             return new Zodiac(firstName, lastName, dateOfBirth);
         }
 
@@ -113,30 +113,41 @@
         }
         public override string ToString()
         {
-            var firstName = FirstName == null ? "Имя не определено": FirstName.ToString();
-            var lastName = LastName == null ? "Фамилия не опрделена": LastName.ToString();
+            var firstName = FirstName == null ? "Имя не определено" : FirstName.ToString();
+            var lastName = LastName == null ? "Фамилия не опрделена" : LastName.ToString();
             return $"{FirstName} {LastName}\n{DateOfBirth}\nЗнак зодиака: {ZodiacSignToString(ZodiacSign)}";
         }
 
-        private static string ChekName(string input,string fieldName = "")
+        private static string CheckName(string input, string fieldName = "")
         {
-            
-                switch (fieldName)
-                {
-                    case nameof(FirstName):
-                        if (!string.IsNullOrEmpty(input))
-                        { return input; break; }
-                        else { return "Имя не определено"; break; }
-                    
-                    case nameof(LastName):
-                        if (!string.IsNullOrEmpty(input))
-                        { return input; break; }
-                        else { return "Фамилия не определена"; break; }
-                        
-                    
-                }
+
+            switch (fieldName)
+            {
+                case nameof(FirstName):
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        return input;
+                        break;
+                    }
+                    else
+                    {
+                        return "Имя не определено";
+                        break;
+                    }
+
+                case nameof(LastName):
+                    if (!string.IsNullOrEmpty(input))
+                    {
+                        return input;
+                        break;
+                    }
+                    else
+                    {
+                        return "Фамилия не определена";
+                        break;
+                    }
+            }
             return null;
-            
         }
     }
 }
