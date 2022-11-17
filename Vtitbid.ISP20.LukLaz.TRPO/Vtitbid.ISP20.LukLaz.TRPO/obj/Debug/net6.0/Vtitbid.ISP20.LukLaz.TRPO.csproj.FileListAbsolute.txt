@@ -1,0 +1,15 @@
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.exe
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.deps.json
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.runtimeconfig.json
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.dll
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\ref\Vtitbid.ISP20.LukLaz.TRPO.dll
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\bin\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.pdb
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.csproj.AssemblyReference.cache
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.AssemblyInfoInputs.cache
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.AssemblyInfo.cs
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.csproj.CoreCompileInputs.cache
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.dll
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\ref\Vtitbid.ISP20.LukLaz.TRPO.dll
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.pdb
+C:\Users\Oldar\source\repos\Pz\.vs\Vtitbid.ISP20.LukLaz.TRPO\Vtitbid.ISP20.LukLaz.TRPO\obj\Debug\net6.0\Vtitbid.ISP20.LukLaz.TRPO.genruntimeconfig.cache
