@@ -13,15 +13,15 @@
             Amount = amount;
         }
 
-        public static Bill CreateBill()
+        public static Bill CreateBill(Action<string> writer, Func<string> reader)
         {
 
-            Console.Write("Введите расчетный счет плательщика: ");
-            var payerBill = ChekName(Console.ReadLine(), nameof(PayerBill));
-            Console.Write("Введите расчетный счет получателя: ");
-            var recipentBill = ChekName(Console.ReadLine(), nameof(RecipentBill));
-            Console.Write("Введите сумму начисления: ");
-            bool CheckOfAmount = int.TryParse(Console.ReadLine(), out int value);
+            writer("Введите расчетный счет плательщика: ");
+            var payerBill = ChekName(reader(), nameof(PayerBill));
+            writer("Введите расчетный счет получателя: ");
+            var recipentBill = ChekName(reader(), nameof(RecipentBill));
+            writer("Введите сумму начисления: ");
+            bool CheckOfAmount = int.TryParse(reader(), out int value);
             if (CheckOfAmount)
             {
 
@@ -31,18 +31,18 @@
             }
             else
             {
-                Console.WriteLine("Ошибка ввода данных");
+                writer("Ошибка ввода данных");
                 Environment.Exit(0);
             }
             return null;
         }
-        public static Bill[] GetBillArray(int count)
+        public static Bill[] GetBillArray(int count, Action<string> writer, Func<string> reader)
         {
             Bill[] routes = new Bill[count];
 
             for (int i = 0; i < routes.Length; i++)
             {
-                routes[i] = CreateBill();
+                routes[i] = CreateBill(writer, reader);
             }
 
             return routes;
@@ -67,12 +67,12 @@
             return "Ошибка ввода";
 
         }
-        public static int SearchBill(Bill[] routes)
+        public static int SearchBill(Bill[] routes, Action<string> writer, Action<Bill> writerBill, Func<string> reader)
         {
             int count = 0;
-            Console.Write("Введите расчетный счет плательщика: ");
-            string input = Console.ReadLine();
-            Console.WriteLine();
+            writer("Введите расчетный счет плательщика: ");
+            string input = reader();
+            
             if (string.IsNullOrEmpty(input))
                 return -1;
             for (int i = 0; i < routes.Length; i++)
@@ -80,7 +80,7 @@
                 if (input == routes[i].PayerBill)
                 {
 
-                    Console.WriteLine(routes[i]);
+                    writerBill(routes[i]);
 
                 }
                 {

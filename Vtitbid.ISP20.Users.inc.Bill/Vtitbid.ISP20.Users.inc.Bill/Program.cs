@@ -7,7 +7,7 @@
             Console.Write("Введите количество операций:");
             if (int.TryParse(Console.ReadLine(), out int value))
             {
-                Bill[] array = Bill.GetBillArray(value);
+                Bill[] array = Bill.GetBillArray(value, Console.WriteLine, Console.ReadLine);
                 
                 Console.WriteLine();
                 foreach (var route in array)
@@ -16,7 +16,7 @@
                     Console.WriteLine();
                 }
 
-                Bill.SearchBill(array);
+                Bill.SearchBill(array, Console.WriteLine, Console.WriteLine, Console.ReadLine);
                 
             }
             else
