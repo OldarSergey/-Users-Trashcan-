@@ -1,0 +1,15 @@
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.csproj.AssemblyReference.cache
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.AssemblyInfoInputs.cache
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.AssemblyInfo.cs
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.csproj.CoreCompileInputs.cache
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\BuilderBurger.exe
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\BuilderBurger.deps.json
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\BuilderBurger.runtimeconfig.json
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\BuilderBurger.dll
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\ref\BuilderBurger.dll
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\bin\Debug\net6.0\BuilderBurger.pdb
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.dll
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\ref\BuilderBurger.dll
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.pdb
+C:\Users\Oldar\source\repos\BuilderBurger\BuilderBurger\obj\Debug\net6.0\BuilderBurger.genruntimeconfig.cache
