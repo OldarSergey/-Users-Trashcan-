@@ -1,0 +1,15 @@
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\bin\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.exe
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\bin\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.deps.json
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\bin\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.runtimeconfig.json
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\bin\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.dll
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\bin\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.pdb
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.csproj.AssemblyReference.cache
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.GeneratedMSBuildEditorConfig.editorconfig
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.AssemblyInfoInputs.cache
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.AssemblyInfo.cs
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.csproj.CoreCompileInputs.cache
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.dll
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\refint\Vtitbid.ISP20.Luk.GetPR.dll
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.pdb
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\Vtitbid.ISP20.Luk.GetPR.genruntimeconfig.cache
+D:\19\Serov\Vtitbid.ISP20.Luk.GetPR\obj\Debug\net6.0\ref\Vtitbid.ISP20.Luk.GetPR.dll
